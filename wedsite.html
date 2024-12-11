@@ -9,9 +9,9 @@
         
         body {
             font-family: 'VT323', monospace;
-            background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
+            background: linear-gradient(90deg, rgb(0, 0, 0), rgb(7, 175, 7), rgb(0, 0, 0), rgb(16, 187, 16), rgb(0, 0, 0), rgb(15, 171, 64), rgb(0, 0, 0));
             background-size: 140% 140%;
-            animation: rainbowShift 5s infinite linear;
+            animation: rainbowShift 10s infinite linear;
             margin: 0;
             padding: 0;
             display: flex;
@@ -67,11 +67,11 @@
             margin: 20px 0;
             font-size: 18px;
             color: white;
-            background-color: #1ab245;
+            background-color: darkgreen;
             border: none;
             border-radius: 10px;
             cursor: pointer;
-            text-decoration: none;
+            text-decoration: none;  
             transition: background-color 0.3s, transform 0.3s;
         }
 
@@ -110,6 +110,7 @@
             transform: scale(1.1);
         }
     </style>
+
 </head>
 <body>
 
@@ -122,6 +123,9 @@
             <button class="button" onclick="showPage('otherGamesPage')">Other Games</button>
             <a href="https://scratch.mit.edu/users/sigma_tiger_pv" class="button">My Scratch Account</a> 
         </div>
+        <div>
+            <a href="https://forms.gle/Fp6dyd2gP8GMAmDB6" class="button">How was your experience</a> 
+        </div>
     </div>
 
     <div class="container" id="aboutMePage">
@@ -132,7 +136,10 @@
         </div>
         <div>
             <a href="mailto:singhtigerpv@example.com" class="button">&#x2709;Contact Me By Email</a>
-            </div>
+        </div>
+        <div>
+            <a href="https://500px.com/singhtigerpv" class="button">My 500px Page</a>
+        </div>
         <div class="nav-buttons">
             <button class="button"&#128176;onclick="showPage('homePage')">Back</button>
         </div>
